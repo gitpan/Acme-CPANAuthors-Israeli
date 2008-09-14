@@ -1,18 +1,22 @@
 ---
 name: Acme-CPANAuthors-Israeli
-version: 0.01
+version: 0.0101
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 abstract: We are Israeli CPAN Authors
 license: mit
 resources:
   license: http://opensource.org/licenses/mit-license.php
+requires:
+  Acme::CPANAuthors: 0
+  Acme::CPANAuthors::Register: 0
+  perl: 5.006
 build_requires:
   Test::More: 0
 provides:
   Acme::CPANAuthors::Israeli:
     file: lib/Acme/CPANAuthors/Israeli.pm
-    version: 0.01
+    version: 0.0101
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

@@ -5,6 +5,8 @@ WriteMakefile
           'NAME' => 'Acme::CPANAuthors::Israeli',
           'VERSION_FROM' => 'lib/Acme/CPANAuthors/Israeli.pm',
           'PREREQ_PM' => {
+                           'Acme::CPANAuthors' => 0,
+                           'Acme::CPANAuthors::Register' => 0,
                            'Test::More' => 0
                          },
           'INSTALLDIRS' => 'site',
